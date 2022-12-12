@@ -10,7 +10,7 @@ let total=document.querySelector("#total");
 function del(event){
     if( confirm("Are u sure tp delete?") ){
 
-        event.target.parentElement.parentElement.parentElement.remove();
+        event.target.parentElement.parentElement.remove();
         caltotal();
     }
   
