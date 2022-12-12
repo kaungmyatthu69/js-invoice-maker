@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,400;1,600&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+$font-family-sans-serif:'Padauk', sans-serif,'Source Sans Pro', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.del-btn{
+    display: none;
+    transition: 1s;
+
+}
+#rows tr:hover .del-btn{
+    display: block;
+}
+
